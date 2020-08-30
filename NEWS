@@ -1,0 +1,21 @@
+mancala 1.0.3
+-------------
+
+Crash fixes.
+
+
+mancala 1.0.2
+-------------
+
+Major changes in this version (there really aren't any, so here comes
+the minor changes):
+
+  * Updated to work with more recent version of XForms.
+
+  * Added a man page.
+
+  * Added NEWS (this file!) and ChangeLog.
+
+  * Builds on OS X with MacPorts.
+
+Most changes were provided by the Debian maintainer Paul Wise.

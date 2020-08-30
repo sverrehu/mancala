@@ -1,0 +1,28 @@
+Note that there are lots of different rule sets for Mancala.  Our
+implementation uses this one:
+
+Setup: The board consists of 2 rows of 6 bins and 2 mancalas.  Each
+   player is allocated the row of bins closest to him and the mancala
+   to his right.  Initially each bin contains 4 stones, and the
+   mancalas are empty.
+
+Object: The object of the game is to place as many stones as possible
+   in one's mancala before the game ends.  This happens when a player,
+   at his turn, has no legal moves, meaning that all his holes are
+   empty.  The other player then gets to put any remaining stones on
+   his side into his mancala.
+
+Moving: At his turn, the player picks up all the stones in any of his
+   non-empty bins and starts to sow them by placing one in each of the
+   preceding bins, starting with the one on the right and continuing
+   counterclockwise around the board, skipping the oponents mancala
+   (but not his own).
+
+Extra move: If the last stone is sown in one's mancala, one gets to
+   move again.
+
+Capturing: If the last stone is sown in an empty bin belonging to the
+   player, he captures all the stones lying in the bin directly across
+   this bin.  These stones and the capturing stone are then placed in
+   the mancala.  If the bin directly across is empty, nothing special
+   happens.

@@ -1,0 +1,34 @@
+
+Building on a Un*x system
+-------------------------
+
+You _will_ have to edit the Makefile to compile the programs.  At
+least you should check the defines CC, XINCDIR, XLIBDIR and OPTIM.
+I've only built this using GNU make and GNU gcc.  Please let me know
+if you have to make major changes to make this work using other tools.
+
+To make the X11 version, you need the XForms-library by T.C. Zhao and
+Mark Overmars.  This nice software is available by anonymous ftp from
+
+     ftp://laue.phys.uwm.edu/pub/xforms  
+
+The API of XForms changed a bit between version 0.75 and 0.81.  This
+version on Mancala is updated to compile with 0.81.
+
+Typing `make' will attempt to build both the text based version and
+the X11 version.  Run `make mancala' or `make xmancala' to build only
+one of the programs.
+
+
+Building on MS-DOS
+------------------
+
+Only the text based program is available on MS-DOS.  The file
+Makefile.bcc should let you compile mancala using Borland's
+bcc-compiler.  Try `make -f Makefile.bcc'.  If you don't have bcc, but
+you have another C compiler, compile and link mancala.c, minimax.c and
+textmain.c to mancala.exe.  Note that I don't check to see that every
+new version compiles on MS-DOS.  Let me know if it doesn't.
+
+If you should happen to make a Windows interface to this program,
+please let me know!

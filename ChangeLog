@@ -1,0 +1,30 @@
+2013-07-04  Sverre H. Huseby  <shh@thathost.com>
+
+	* Release 1.0.3
+
+	* No longer ignoring return value from fgets.
+
+	* No longer accepting negative max-ply arguments.
+
+2012-06-18  Sverre H. Huseby  <shh@thathost.com>
+
+	* Release 1.0.2
+
+	* Mostly changes from the Debian maintainer Paul Wise again.  See
+	  NEWS for details.  Thank you, Paul!
+
+2007-06-13  Sverre H. Huseby  <shh@thathost.com>
+
+	* Release 1.0.1
+
+	* Updated author addresses.
+
+	* Added patch from Paul Wise <pabs@debian.org>, allowing users to
+	  specify the initial number of stones on the command line.
+	  Thanks, Paul!
+
+1998-07-05  Sverre H. Huseby  <sverrehu@online.no>
+
+	* Release 1.0.0
+
+	* Updated author address.

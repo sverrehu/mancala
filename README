@@ -1,0 +1,20 @@
+
+This is an implementation of the simple, but fun board game known as
+Mancala.  For rules of the game, see RULES.
+
+A simple character/terminal-based version of the game can be compiled
+on both Un*x- and MS-DOS-systems.  A fancy windowing version requires
+the X Window System.  See INSTALL for brief instructions on how to
+build the programs.
+
+This package is brought to you by `Fellowship of Beer-drinking
+Programmers', currently
+
+	Sverre H.  Huseby	shh@thathost.com
+	Glenn Terje Lines	glennli@simula.no
+
+Feel free to do what you want with this software, but please drop any
+of us a mail if you use it (or if you don't use it, for some reason).
+If you make any changes to the code before passing it further, you
+must include a file identifying what changes you made.  Please leave
+our names where you find'em.  Fame and fortune, you know...

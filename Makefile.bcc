@@ -1,0 +1,36 @@
+PROG      = mancala
+EXE       = exe
+
+CC        = bcc
+RM        = del
+
+CMODEL    = s
+AMODEL    = SMALL
+
+OPTIM     = -G -O2 -vi -a -k- -N-
+CPU       = -3
+
+CCOPT     = -c -d -m$(CMODEL) $(OPTIM) $(CPU)
+LDOPT     = -m$(CMODEL) $(DEBUG)
+
+LIBS      =
+OBJS      = minimax.obj textmain.obj
+
+
+.AUTODEPEND
+
+
+
+$(PROG).$(EXE): $(PROG).obj $(OBJS)
+    $(CC) $(LDOPT) -e$(PROG) $(PROG).obj $(OBJS) $(LIBS)
+
+clean:
+    $(RM) *.obj
+    $(RM) *.bak
+
+veryclean: clean
+    $(RM) $(PROG).$(EXE)
+
+
+.c.obj:
+    $(CC) $(CCOPT) {$< }

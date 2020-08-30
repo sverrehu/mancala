@@ -1,0 +1,21 @@
+Begin3
+Title:		Mancala
+Version:	VER
+Entered-date:	DATE
+Description:	Implementation of the simple board game called Mancala.
+		Contains both a user unfriendly character based interface,
+		and a nice, user friendly X11 interface. Be warned: If you
+		just bother to read the rules, you may get hooked on this!
+Keywords:	game, mancala, minimax
+Author: 	shh@thathost.com (Sverre H. Huseby)
+		glennli@simula.no (Glenn Terje Lines)
+Primary-site:	http://shh.thathost.com/pub-unix/
+Alternate-site:	sunsite.unc.edu /pub/Linux/games/strategy
+		mancala-VER.tar.gz		
+Platforms:	For X11 interface, Xlib and XForms are required. If you
+		don't have XForms, get it! It's available from the following
+		site:
+			ftp://laue.phys.uwm.edu/pub/xforms  
+Copying-policy:	Artistic License
+		http://sunsite.unc.edu/pub/Linux/LICENSES/artistic.license
+End

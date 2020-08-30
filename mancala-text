@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# mancala-text - short script to run mancala in xterm for debian
+
+# Andrew Gray <ajpg@debian.org>, Sat, 15 Jul 2000 00:16:28 +0100
+
+echo "Rules are in file /usr/share/doc/mancala/RULES under debian."
+echo ""
+/usr/games/mancala 0 4
+echo ""
+printf "Finished - press ENTER  "
+read RUBBISH
