@@ -1,0 +1,9 @@
+*~
+*.o
+*.lsm
+*.tar.gz
+xform.c
+xform.h
+depend
+mancala
+xmancala
